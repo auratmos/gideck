@@ -1,0 +1,89 @@
+#!/bin/bash
+
+# CONCEPT ONLY - NOT A WORKING SCRIPT
+
+# gideck Updater
+clear
+echo 'gideck ~ Genshin Impact for Steam Deck'
+echo 'Made by Aura + contributors'
+echo
+echo 'Checking for gideck updates...'
+sleep 2
+echo 'gideck is up to date!'
+sleep 1
+clear
+
+# If Genshin is not installed
+echo 'gideck ~ Genshin Impact for Steam Deck'
+echo 'Made by Aura + contributors'
+echo
+echo 'Genshin Impact is not installed. Would you like to install it?'
+echo # yes/no prompt
+sleep 3
+
+echo 'Aborting...' # no
+sleep 5
+
+clear
+echo 'gideck ~ Genshin Impact for Steam Deck'
+echo 'Made by Aura + contributors'
+echo
+echo 'Where would you like to install Genshin Impact? (leave blank for default, ~/Genshin Impact)' # yes
+echo # input prompt
+sleep 5
+
+# installation
+clear
+echo 'gideck ~ Genshin Impact for Steam Deck'
+echo 'Made by Aura + contributors'
+echo
+echo 'Installing Genshin Impact to ~/Genshin Impact/...'
+echo #wget -q --show-progress [file]
+# etc
+
+sleep 10
+
+clear
+echo 'gideck ~ Genshin Impact for Steam Deck'
+echo 'Made by Aura + contributors'
+echo
+echo 'Genshin Impact has been installed! Safe travels, traveller!'
+sleep 5
+
+# already installed - check for updates
+clear
+echo 'gideck ~ Genshin Impact for Steam Deck'
+echo 'Made by Aura + contributors'
+echo
+echo 'Checking for Genshin Impact updates...'
+# use auratmos/GenshinVersionAPI to check - based on u/SingularityHRT genshin direct download links
+sleep 3
+
+clear
+echo 'gideck ~ Genshin Impact for Steam Deck'
+echo 'Made by Aura + contributors'
+echo
+echo 'A new update for Genshin Impact is available!'
+echo 'Would you like to install it?'
+echo # yes/no prompt
+sleep 3
+
+echo 'In order to play Genshin Impact online, you will need to update to the latest version.'
+echo 'Aborting...' # no
+sleep 5
+
+clear
+echo 'gideck ~ Genshin Impact for Steam Deck'
+echo 'Made by Aura + contributors'
+echo
+echo 'Updating Genshin Impact...'
+echo #wget -q --show-progress [file]
+# etc
+sleep 10
+
+clear
+echo 'gideck ~ Genshin Impact for Steam Deck'
+echo 'Made by Aura + contributors'
+echo
+echo 'Genshin Impact has been updated! Safe travels, traveller!'
+exit
